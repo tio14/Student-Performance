@@ -147,7 +147,7 @@ elif selected == 'Predict':
 
     col1, col2 = st.columns([1, 5])
     with col1:
-        st.image("asset\predict_white.png", width=130)
+        st.image("asset/predict_white.png", width=130)
     with col2:
         st.title('Student Dropout Prediction')
         st.header('(Prototype)')
