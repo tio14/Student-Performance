@@ -1,37 +1,48 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Business Understanding
-Jelaskan latar belakang bisnis dari perushaan tersebut.
+Jaya Jaya Institut (nama fiktif) merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik.
 
 ### Permasalahan Bisnis
-Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
+Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout. Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
 
 ### Cakupan Proyek
-Tuliskan cakupan proyek yang akan dikerjakan.
+- Mengidentifikasi faktor-faktor yang mempengaruhi siswa untuk melakukan dropout.
+- Membuat aksi rekomendasi berdasarkan analisis data.
+- Membuat dashboard untuk memudahkan stackholder dalam memahami data dan memantau performa siswa.
+- Membuat solusi machine learning yang siap digunakan.
 
 ### Persiapan
-
-Sumber data: ....
+Sumber data: [Student's Performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
 
 Setup environment:
 ```
-
+conda create --name [env]
+conda activate [env]
+conda install --yes --file requirements.txt
 ```
+Change "[env]" with your "environment_name"
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Terdapat Dashboard yang dapat diakses melalui [link berikut](https://student-performance-qf7phu8nvpyrv7r2cfmgku.streamlit.app/). Dashboard tersebut dapat digunakan untuk menganalisa data dengan melihat berbagai faktor yang diperkirakan mempengaruhi siswa untuk tidak menuntaskan studi (dropout). Terdapat dua menu utama yakni Dashboard dan Predict. 
+
+Pada **menu Dashboard**, anda dapat melihat dan memonitor berbagai faktor tersebut. Terdapat filter berdasarkan Course pada bagian atas dashboard, sehingga anda dapat memfokuskan analisis pada satu atau beberapa course tertentu.
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Sistem prediksi dari Machine Learning dapat diakses melalui komputer lokal dengan mengikuti petunjuk di bawah. Anda juga dapat mengaksesnya pada [link dashboard](https://student-performance-qf7phu8nvpyrv7r2cfmgku.streamlit.app/) yang telah disebutkan sebelumnya dengan membuka **menu Predict**.
 
 ```
-
+conda activate [env]
+streamlit run app.py
 ```
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Tingkat dropout dari institusi pendidikan ini terbilang cukup tinggi. Dengan perbandingan 2:3 dari siswa yang lulus. Jurusan (course) dengan tingkat dropout cukup tinggi terjadi pada jurusan management. Siswa yang mendaftar pada umur lebih dari 23 tahun berpotensi besar untuk tidak dapat menyelesaikan studi. 
+
+Siswa yang menunggak membayar biaya kuliah berpeluang sangat tinggi untuk dropout. Faktanya 95% dari siswa yang menunggak mengalami dropout. Pada umumnya nilai siswa pada semester 1 tidak begitu berbeda dengan nilai pada semester 2. Siswa dengan perbedaan nilai pada semester 1 dan semester 2 cenderung tidak dapat menyelesaikan studinya.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+Berikut beberapa aksi yang direkomendasikan:
+- Siswa yang berumur lebih dari 23 tahun saat mendaftar perlu lebih diperhatikan, karena mereka berpotensi tinggi untuk dropout. 
+- Siswa yang menunggak membayar uang kuliah dapat dipanggil untuk melakukan konseling. Mungkin mereka memiliki masalah ekonomi dan beasiswa dapat menjadi solusi bagi mereka.
+- Dosen akademik disarankan untuk memanggil siswa yang mengalami perubahan nilai yang cukup signifikan. Terutama saat nilai siswa menurun dibandingkan dengan nilai  semester sebelumnya.
