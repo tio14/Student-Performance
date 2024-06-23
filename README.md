@@ -4,7 +4,13 @@
 Jaya Jaya Institut (nama fiktif) merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik.
 
 ### Permasalahan Bisnis
-Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout. Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
+Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout. Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Masalah dropout di Jaya Jaya Institut merupakan tantangan yang signifikan yang perlu segera ditangani. Dropout tidak hanya mempengaruhi reputasi institusi tetapi juga berdampak negatif pada perkembangan pribadi dan akademik siswa yang terlibat. Penanganan yang tepat terhadap masalah ini dapat meminimalkan angka dropout dan meningkatkan kesuksesan akademik serta kepuasan siswa.
+
+Salah satu langkah penting dalam mengatasi masalah dropout adalah dengan mengidentifikasi faktor-faktor yang mungkin menyebabkan siswa mengambil keputusan untuk keluar dari institusi. Beberapa faktor umum yang sering menjadi penyebab dropout meliputi masalah keuangan, tekanan akademik yang berlebihan, ketidakcocokan dengan lingkungan belajar, masalah pribadi atau keluarga, serta kurangnya dukungan sosial dan akademik.
+
+Jaya Jaya Institut perlu mengembangkan sistem monitoring yang efektif untuk mendeteksi tanda-tanda awal siswa yang berisiko dropout. Hal ini dapat dilakukan dengan memanfaatkan data historis dan informasi akademik, perilaku belajar, dan interaksi siswa dengan dosen dan rekan-rekan sekelas. Analisis data yang cermat dapat membantu dalam mengidentifikasi pola-pola yang mengarah pada keputusan dropout.
+
+Dengan pendekatan yang holistik dan berkelanjutan terhadap masalah dropout, Jaya Jaya Institut dapat membangun lingkungan pendidikan yang inklusif, mendukung semua siswa dalam mencapai potensi mereka, dan memastikan bahwa setiap siswa memiliki kesempatan yang adil untuk sukses dalam pendidikan mereka. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
 
 ### Cakupan Proyek
 - Mengidentifikasi faktor-faktor yang mempengaruhi siswa untuk melakukan dropout.
